@@ -1,0 +1,79 @@
+{
+  "equipments": [
+    {
+      "id": "asset:001",
+      "model": "LAMBDA 650 UV/Vis Spectrophotometer1",
+      "brand": "LAMBDA"
+    },
+    {
+      "id": "asset:002",
+      "model": "JANUS® G3 NGS Express Workstation230",
+      "brand": "JANUS",
+      "weight": "125.8 kg",
+      "manufactureDate": "2012-11-10"
+    },
+    {
+      "id": "asset:003",
+      "model": "LAMBDA XLS+ with Printer",
+      "brand": "LAMBDA",
+      "weight": "2.0 kg",
+      "manufactureDate": "2008-01-01"
+    },
+    {
+      "id": "asset:004",
+      "model": "Wizard 2-Detector Gamma Counter, 550 samples",
+      "brand": "Wizard",
+      "weight": "55.0 kg",
+      "manufactureDate": "2015-03-10"
+    },
+    {
+      "id": "asset:005",
+      "model": "Quantum GX2 microCT Imaging System",
+      "brand": "Quantum",
+      "weight": "50 kg",
+      "manufactureDate": "2012-12-12"
+    },
+    {
+      "id": "asset:006",
+      "model": "Biodiesel Glycerin Analysis System 230V",
+      "brand": "Clarus",
+      "weight": "25.8 kg",
+      "manufactureDate": "2008-08-28"
+    },
+    {
+      "id": "asset:007",
+      "model": "High-throughput, High Content RNAi Screening",
+      "brand": "explorer",
+      "weight": "35 kg",
+      "manufactureDate": "2017-11-02"
+    },
+    {
+      "id": "asset:008",
+      "model": "PinAAcle 900F Atomic Absorption Spectrometer",
+      "brand": "LAMBDA",
+      "weight": "15.5 kg",
+      "manufactureDate": "2018-09-15"
+    },
+    {
+      "id": "asset:009",
+      "model": "TGA 4000 System, 100-240V/50-60Hz",
+      "brand": "Thermal",
+      "weight": "14 kg",
+      "manufactureDate": "2011-10-22"
+    },
+    {
+      "id": "asset:010",
+      "model": "Operetta CLS High-Content Analysis System",
+      "brand": "Operetta CLS",
+      "weight": "3 kg",
+      "manufactureDate": "2014-04-11"
+    },
+    {
+      "id": "asset:011",
+      "model": "AutoDELFIA® Instrument",
+      "brand": "AutoDELFIA",
+      "weight": "2 kg",
+      "manufactureDate": "2014-04-11"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<form #editForm="ngForm"  id="editForm" (ngSubmit)="updateOrAddEquipment(editForm)">
+    <div *ngIf="equipment">
+    <h4 class="mt-2" *ngIf='isEdit'>Id</h4>
+    <input *ngIf='isEdit' [(ngModel)]="equipment.id" type="text" name="id" class="form-control mx-2">
+    <h4 class="mt-2">Modal</h4>
+    <input [(ngModel)]="equipment.model" type="text" name="model" class="form-control mx-2">
+    <h4 class="mt-2">Brand</h4>
+    <input [(ngModel)]="equipment.brand" type="text" name="brand" class="form-control mx-2">
+    <h4 class="mt-2">Weight: </h4>
+    <input [(ngModel)]="equipment.weight" type="text" name="weight" class="form-control mx-2">
+    <h4 class="mt-2">Manufacture Date: </h4>
+    <input [(ngModel)]="equipment.manufactureDate" type="text" name="manufactureDate" class="form-control mx-2"> 
+   <div class="form-group text-center">
+    <button [disabled]="!editForm.dirty"
+class="btn btn-success mr-2" style="margin-top: 10px;">Save Changes</button> 
+<button class="btn btn-default mr-2" (click)="cancel()" type="button" style="margin-top: 10px;">Cancel</button> 
+</div> 
+</div>
+</form>
