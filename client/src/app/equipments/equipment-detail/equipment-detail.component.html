@@ -1,7 +1,13 @@
+<div class="row">
+    <div class="alert alert-info" *ngIf="editForm.dirty">
+        <strong>Information: </strong> You have made changes.  Any unsaved changes will be lost
+    </div>
+</div>
+
 <form #editForm="ngForm"  id="editForm" (ngSubmit)="updateOrAddEquipment(editForm)">
     <div *ngIf="equipment">
     <h4 class="mt-2" *ngIf='isEdit'>Id</h4>
-    <input *ngIf='isEdit' [(ngModel)]="equipment.id" type="text" name="id" class="form-control mx-2">
+    <input *ngIf='isEdit' [(ngModel)]="equipment.id" type="text" name="id" class="form-control mx-2" readonly>
     <h4 class="mt-2">Modal</h4>
     <input [(ngModel)]="equipment.model" type="text" name="model" class="form-control mx-2">
     <h4 class="mt-2">Brand</h4>
